@@ -1,0 +1,4 @@
+build
+deploy*.sh
+gateway
+node_modules

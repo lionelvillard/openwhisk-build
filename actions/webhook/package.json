@@ -1,0 +1,11 @@
+{
+  "name": "github-webhook",
+  "main": "github-webhook.js",
+  "scripts": {
+    "test": "node tests/data-processing.js"
+  },
+  "dependencies": {
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}

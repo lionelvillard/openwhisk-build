@@ -1,0 +1,5 @@
+packages:
+  wsk-build:
+  actions:
+    build-from-github:
+      location: actions/webhook/webhook.js
