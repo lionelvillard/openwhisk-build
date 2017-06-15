@@ -187,7 +187,7 @@ const sampleEvent = {
 
 function main() {
     let event = sampleEvent;
-    event.github_auth = 'bearer d31679ecfce9c5de2aa5ae9172fde539f41b4489';
+    event.github_auth = process.env.GITHUB_TOKEN
 
     return webhook.main(event);
 }
