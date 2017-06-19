@@ -39,7 +39,6 @@ const handlePush = (args) => {
     //     .then(build(args))
 }
 
-
 const createRelease = (args) => {
     let auth = args.github_token
     let owner = args.repository.owner.name
@@ -81,6 +80,4 @@ const build = (args) => {
     let owner = args.repository.owner.name
     let repo = args.repository.name
     let sha = args.after
-
-
 }
